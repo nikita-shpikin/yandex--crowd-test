@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="node_modules/modern-normalize/modern-normalize.css"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<script type="module">
+			import ysFonts from 'https://cdn.jsdelivr.net/npm/ys-fonts@1.0.0/+esm'
+		</script>
+		<title>shop</title>
+	</head>
+	<body>
+		<div class="shop">
+			<img class="shop__shelf" src="./images/shelf.svg" alt="Полка" />
+			<ul class="shop__list">
+				<li draggable="true" id="vine" class="shop__list-item shop__list-vine">
+					<img src="./images/vine.svg" alt="Вино" class="shop__list-img" />
+				</li>
+				<li draggable="true" id="milk" class="shop__list-item shop__list-milk">
+					<img src="./images/milk.svg" alt="Молоко" class="shop__list-img" />
+				</li>
+				<li draggable="true" id="jam" class="shop__list-item shop__list-jam">
+					<img src="./images/jam.svg" alt="Джем" class="shop__list-img" />
+				</li>
+				<li
+					draggable="true"
+					id="cheese"
+					class="shop__list-item shop__list-cheese"
+				>
+					<img src="./images/cheese.svg" alt="Сыр" class="shop__list-img" />
+				</li>
+				<li draggable="true" id="meat" class="shop__list-item shop__list-meat">
+					<img src="./images/meat.svg" alt="Мясо" class="shop__list-img" />
+				</li>
+				<li
+					draggable="true"
+					id="chicken"
+					class="shop__list-item shop__list-chicken"
+				>
+					<img src="./images/chicken.svg" alt="Курица" class="shop__list-img" />
+				</li>
+				<li
+					draggable="true"
+					id="chips"
+					class="shop__list-item shop__list-chips"
+				>
+					<img src="./images/chips.svg" alt="Чипсы" class="shop__list-img" />
+				</li>
+				<li
+					draggable="true"
+					id="pineapple"
+					class="shop__list-item shop__list-pineapple"
+				>
+					<img
+						src="./images/pineapple.svg"
+						alt="Ананас"
+						class="shop__list-img"
+					/>
+				</li>
+				<li
+					draggable="true"
+					id="banana"
+					class="shop__list-item shop__list-banana"
+				>
+					<img src="./images/banana.svg" alt="Бананы" class="shop__list-img" />
+				</li>
+				<li
+					draggable="true"
+					id="apple"
+					class="shop__list-item shop__list-apple"
+				>
+					<img src="./images/apple.svg" alt="Яблоко" class="shop__list-img" />
+				</li>
+				<li
+					draggable="true"
+					id="broccoli"
+					class="shop__list-item shop__list-broccoli"
+				>
+					<img
+						src="./images/broccoli.svg"
+						alt="Брокколи"
+						class="shop__list-img"
+					/>
+				</li>
+			</ul>
+
+			<div class="shop__basket">
+				<img
+					class="shop__basket-img"
+					src="./images/basket.svg"
+					alt="Корзина"
+					width="552"
+					height="650"
+				/>
+			</div>
+
+			<a href="https://lavka.yandex.ru/" target="_blank" class="shop__btn"
+				>Оплатить корзину</a
+			>
+		</div>
+	</body>
+	<script src="./main.js"></script>
+</html>
